@@ -61,13 +61,14 @@ nav ul li a{
     font-size: 40px;
     text-decoration: none;
     font-family: Candyshop;
-    
+ 
 }
+
+
 
 a:hover{
     color: black;
     text-shadow: 0px 4px 10px pink;
-    
     
 }
 
@@ -122,7 +123,21 @@ a:hover{
 
 .content2{
     background-image: url("img/gen.jpg");
+    position: relative;
 }
+
+.title{
+    position: absolute;
+    left: 34%;
+    color: white;
+    font-family: CandyShop;
+    font-size: 100px;
+    text-shadow: 0px 3px 10px black;
+    border-bottom: 10px solid black;
+    border-radius: 20px;
+
+}
+
 
 .store{
     background-image: url("img/arat.png");
@@ -130,6 +145,12 @@ a:hover{
     background-position: top;
     background-repeat: no-repeat;
     height: 100vh;
+    @font-face {
+        font-family: Candyshop;
+        src: url(font/Candyshop);
+    }
+    
+    
 
 
     /*GRID*/
@@ -152,6 +173,10 @@ a:hover{
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
     border-radius: 20px;
+    margin-top: 50px;
+    
+    
+  
 
     /*GRID*/
     display: grid;
@@ -165,9 +190,12 @@ a:hover{
     width: 120px;
     height: 120px;
     border-radius: 10%;
+    box-shadow: 0px 5px 5px black;
     
 
 }
+
+
 
 .candy2{
     margin-bottom: -80px;
@@ -191,6 +219,7 @@ a:hover{
     width: 120px;
     height: 120px;
     border-radius: 10%;
+    box-shadow: 0px 5px 5px black;
   
     
 }
@@ -218,6 +247,7 @@ a:hover{
     width: 120px;
     height: 120px;
     border-radius: 10%;
+    box-shadow: 0px 5px 5px black;
     
     
 
@@ -245,6 +275,7 @@ a:hover{
     width: 120px;
     height: 120px;
     border-radius: 10%;
+    box-shadow: 0px 5px 5px black;
     
     
 
@@ -271,6 +302,7 @@ a:hover{
     width: 120px;
     height: 120px;
     border-radius: 10%;
+    box-shadow: 0px 5px 5px black;
   
     
 
@@ -285,6 +317,7 @@ a:hover{
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
     border-radius: 20px;
+    
 
     /*GRID*/
     display: grid;
@@ -298,16 +331,20 @@ a:hover{
     width: 120px;
     height: 120px;
     border-radius: 10%;
+    box-shadow: 0px 5px 5px black;
     
     
 
 }
 
-
-.store .hover1{
-    width: 210px;
-    height: 310px;
-    background-color: red;
+.hover1{
+    color: white;
+    font-family: CandyShop;
+    letter-spacing: 0.1cm;
+    text-shadow: 0px 3px 2px black;
 }
+
+
+
 
 
