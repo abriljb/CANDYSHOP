@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    
 }
 
 
@@ -39,8 +40,6 @@
         font-family: Candyshop;
         src: url(font/Candyshop);
     }
-    
-
     
 
     /*GRID*/
@@ -128,9 +127,10 @@ a:hover{
 
 .title{
     position: absolute;
-    left: 37%;
+    top: 40px;
+    left: 38%;
     color: white;
-    font-family: CandyShop;
+    font-family: Candyshop;
     font-size:80px;
     text-shadow: 0px 3px 10px black;
     border-bottom: 10px solid black;
@@ -145,10 +145,8 @@ a:hover{
     background-position: top;
     background-repeat: no-repeat;
     height: 100vh;
-    @font-face {
-        font-family: Candyshop;
-        src: url(font/Candyshop);
-    }
+    padding: 0px 0px 120px 0px;
+
     
     
 
@@ -168,7 +166,7 @@ a:hover{
     margin-left: 300px;
     margin-bottom:-80px;
     width: 200px;
-    height: 300px;
+    height: 260px;
     background-image: url("img/eto.png");
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
@@ -200,7 +198,7 @@ a:hover{
 .candy2{
     margin-bottom: -80px;
     width: 200px;
-    height: 300px;
+    height: 260px;;
     background-image: url("img/eto.png");
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
@@ -229,7 +227,7 @@ a:hover{
     margin-right: 300px;
     margin-bottom: -80px;
     width: 200px;
-    height: 300px;
+    height: 260px;
     background-image: url("img/eto.png");
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
@@ -257,7 +255,7 @@ a:hover{
 .candy4{
     margin-left: 300px;
     width: 200px;
-    height: 300px;
+    height: 260px;
     background-image: url("img/eto.png");
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
@@ -284,7 +282,7 @@ a:hover{
 
 .candy5{
     width: 200px;
-    height: 300px;
+    height: 260px;
     background-image: url("img/eto.png");
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
@@ -312,7 +310,7 @@ a:hover{
 .candy6{
     margin-right: 300px;
     width: 200px;
-    height: 300px;
+    height: 260px;
     background-image: url("img/eto.png");
     background-size:cover ;
     box-shadow: 0px 5px 10px black;
@@ -345,7 +343,7 @@ a:hover{
 }
 
 .Level3{
-    background-image: url("img/level3bg.png");
+    background-image: url("img/blues.png");
 }
 
 
@@ -356,37 +354,61 @@ a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
-    
 }
 
 
 iframe{
     width: 400px;
+    padding-top: 5px;
 }
 
 .map1{
-    width: 400px;
+    width: 310px;
     height: 400px;
-    background-color: red;
-    border-radius: 50px;
+    background-color:black;
+    border-radius: 10px;
     /*GRID*/
-    
     grid-column: 1/2;
+    display: grid;
+    justify-items: center;
     
+    
+}
+
+.mappy{
+    width:300px;
 }
 
 .map2{
-    border: 1px solid red;
+    width: 310px;
+    height: 400px;
+    background-color:black;
+    border-radius: 10px;
+    
 
     /*GRID*/
     grid-column: 2/3;
+    display: grid;
+    justify-items: center;
 }
 
 .map3{
-    border: 1px solid red;
+    width: 310px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+    transition: width 3s ease-in;
+    
 
     /*GRID*/
     grid-column: 3/4;
+    display: grid;
+    justify-items: center;
+}
+
+.mappy:hover{
+    width: 320px;
+
 }
 
 
