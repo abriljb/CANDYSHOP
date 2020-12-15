@@ -365,8 +365,15 @@ iframe{
 .map1{
     width: 310px;
     height: 400px;
-    background-color:black;
+    background-color:#e3aaeb;
     border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Candyshop;
+    text-shadow: 0px 4px 5px black;
+    box-shadow: 0px 1px 10px skyblue;
+
     /*GRID*/
     grid-column: 1/2;
     display: grid;
@@ -382,9 +389,14 @@ iframe{
 .map2{
     width: 310px;
     height: 400px;
-    background-color:black;
+    background-color:#e3aaeb;
     border-radius: 10px;
-    
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Candyshop;
+    text-shadow: 0px 4px 5px black;
+    box-shadow: 0px 5px 5px skyblue;
 
     /*GRID*/
     grid-column: 2/3;
@@ -395,22 +407,32 @@ iframe{
 .map3{
     width: 310px;
     height: 400px;
-    background-color: black;
+    background-color: #e3aaeb;
     border-radius: 10px;
-    transition: width 3s ease-in;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Candyshop;
+    text-shadow: 0px 4px 5px black;
+    box-shadow: 0px 5px 5px skyblue;
+
     
 
     /*GRID*/
     grid-column: 3/4;
     display: grid;
     justify-items: center;
+    
 }
 
-.mappy:hover{
-    width: 320px;
 
+.footer{
+    height: 100px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    color: white;
 }
-
 
 
 
