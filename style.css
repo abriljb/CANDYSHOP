@@ -36,10 +36,7 @@
 
 .navigator{
     margin-top: 50px;
-    @font-face {
-        font-family: Candyshop;
-        src: url(font/Candyshop);
-    }
+  
     
 
     /*GRID*/
@@ -59,7 +56,7 @@ nav ul li a{
     color: white;
     font-size: 40px;
     text-decoration: none;
-    font-family: Candyshop;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
  
 }
 
@@ -128,9 +125,9 @@ a:hover{
 .title{
     position: absolute;
     top: 40px;
-    left: 38%;
+    left: 41%;
     color: white;
-    font-family: Candyshop;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size:80px;
     text-shadow: 0px 3px 10px black;
     border-bottom: 10px solid black;
@@ -337,13 +334,14 @@ a:hover{
 
 .hover1{
     color: white;
-    font-family: CandyShop;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 0.1cm;
     text-shadow: 0px 3px 2px black;
 }
 
 .Level3{
     background-image: url("img/blues.png");
+    position: relative;
 }
 
 
@@ -353,7 +351,20 @@ a:hover{
     /*GRID*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.mapptitle{
+    position: absolute;
+    top: 0px;
+    left: 38%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:80px;
+    text-shadow: 0px 3px 10px black;
+    border-bottom: 10px solid black;
+    border-radius: 20px;
 }
 
 
@@ -370,7 +381,7 @@ iframe{
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: Candyshop;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 0px 4px 5px black;
     box-shadow: 0px 1px 10px skyblue;
 
@@ -381,6 +392,7 @@ iframe{
     
     
 }
+
 
 .mappy{
     width:300px;
@@ -394,7 +406,7 @@ iframe{
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: Candyshop;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 0px 4px 5px black;
     box-shadow: 0px 5px 5px skyblue;
 
@@ -412,7 +424,7 @@ iframe{
     text-align: center;
     color: white;
     font-size: 30px;
-    font-family: Candyshop;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 0px 4px 5px black;
     box-shadow: 0px 5px 5px skyblue;
 
@@ -429,12 +441,28 @@ iframe{
 .footer{
     height: 100px;
     background-color: black;
-    display: grid;
-    place-items: center;
     color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
 }
 
 
 
 
 
+/* MEDIA QUERY*/
+
+
+@media (min-width:1024px) {
+
+}
+
+
+
+@media (min-width:768px) and (max-width:375){
+
+    
+}
